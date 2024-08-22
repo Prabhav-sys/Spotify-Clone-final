@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000000;
+    color: azure;
+}
+
+.navbar {
+    height: 60px;
+    background-color:#160F29 ;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60;
+}
+.brand img {
+    padding: 4px 12px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+nav ul li {
+    padding: 0 12px;
+}
+
+.Main-container {
+    display: flex;
+    align-items: center;
+}
+.sub-main-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+
+.container01 {
+    height: 75vh;
+    width: 70vw;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color:#273469;
+    color: azure;
+    background-image: url('/Assets/backg\ 02.jpg');
+}
+
+.container02 {
+    height: 95.1vh;
+    width: 28vw;
+    background-color: #1D1A31;
+    color: azure;
+    margin-top: 5px;
+    margin-left: 5pxpx;
+    border-radius: 10px;
+
+}
+
+.banner {
+  margin-top: 75px;
+  margin-left: 90px;
+}
+
+.details {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.details h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.details p {
+    font-size: 1.2rem;
+    margin: 5px 
+}
+.container03 {
+    background-color:#03120E;
+    color: azure;
+    margin-top: 1vh;
+    margin-bottom: 0.25vh;
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 20vh;
+    width: 70vw;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    width: 65vw;
+    background-color:#03120E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 50vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+.songList {
+   width: 30vw;
+}
+
+.songItem{
+    height: 60px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
